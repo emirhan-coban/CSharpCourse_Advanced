@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CSharpEgitimKampi301.BusinessLayer/CSharpEgitimKampi301.BusinessLayer.csproj" />
+  <Project Path="CSharpEgitimKampi301.DataAccessLayer/CSharpEgitimKampi301.DataAccessLayer.csproj" />
+  <Project Path="CSharpEgitimKampi301.EntityLayer/CSharpEgitimKampi301.EntityLayer.csproj" />
+  <Project Path="CSharpEgitimKampi301.PresentationLayer/CSharpEgitimKampi301.PresentationLayer.csproj" />
+</Solution>
