@@ -1,6 +1,7 @@
 <Solution>
-  <Project Path="CSharpEgitimKampi301.BusinessLayer/CSharpEgitimKampi301.BusinessLayer.csproj" />
-  <Project Path="CSharpEgitimKampi301.DataAccessLayer/CSharpEgitimKampi301.DataAccessLayer.csproj" />
-  <Project Path="CSharpEgitimKampi301.EntityLayer/CSharpEgitimKampi301.EntityLayer.csproj" />
-  <Project Path="CSharpEgitimKampi301.PresentationLayer/CSharpEgitimKampi301.PresentationLayer.csproj" />
+  <Project Path="CSharpEgitimKampi301.BusinessLayer/CSharpEgitimKampi301.BusinessLayer.csproj" Id="f966a898-6ce8-4677-80ef-9b40d4029e3f" />
+  <Project Path="CSharpEgitimKampi301.DataAccessLayer/CSharpEgitimKampi301.DataAccessLayer.csproj" Id="c0f40ca7-6373-4953-967a-5a85f72d533e" />
+  <Project Path="CSharpEgitimKampi301.EFProject/CSharpEgitimKampi301.EFProject.csproj" Id="e4b4ad5f-7564-4801-8766-f34b90af9e57" />
+  <Project Path="CSharpEgitimKampi301.EntityLayer/CSharpEgitimKampi301.EntityLayer.csproj" Id="41d53eb3-7b20-4410-9b92-bc85ae7b47d7" />
+  <Project Path="CSharpEgitimKampi301.PresentationLayer/CSharpEgitimKampi301.PresentationLayer.csproj" Id="1bf16eb5-f12d-47c3-a4a5-1a665c61db63" />
 </Solution>
