@@ -9,7 +9,7 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
     public interface IGenericDal <T> where T : class
     {
         void Insert (T entity);
-        void Delete(int id);
+        void Delete(T entity);
         void Update(T entity);
         List<T> GetAll();
         T GetById(int id);
