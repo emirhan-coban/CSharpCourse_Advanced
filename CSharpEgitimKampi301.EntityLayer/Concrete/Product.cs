@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
@@ -16,5 +12,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         public int CategoryID { get; set; }
         public virtual Category Category { get; set; }
         public List<Order> Orders { get; set; }
+
+        //[NotMapped]
+        //public string CategoryName { get; set; }
     }
 }
