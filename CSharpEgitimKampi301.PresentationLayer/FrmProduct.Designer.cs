@@ -58,6 +58,7 @@
             this.btnId.TabIndex = 25;
             this.btnId.Text = "ID\'ye Göre Getir";
             this.btnId.UseVisualStyleBackColor = true;
+            this.btnId.Click += new System.EventHandler(this.btnId_Click);
             // 
             // btnUpdate
             // 
@@ -67,6 +68,7 @@
             this.btnUpdate.TabIndex = 24;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -76,6 +78,7 @@
             this.btnDelete.TabIndex = 23;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -160,6 +163,7 @@
             this.textProductStock.Name = "textProductStock";
             this.textProductStock.Size = new System.Drawing.Size(132, 20);
             this.textProductStock.TabIndex = 27;
+            this.textProductStock.TextChanged += new System.EventHandler(this.textProductStock_TextChanged);
             // 
             // label5
             // 
@@ -194,6 +198,7 @@
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(132, 21);
             this.cmbCategory.TabIndex = 32;
+            this.cmbCategory.SelectedIndexChanged += new System.EventHandler(this.cmbCategory_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -241,6 +246,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmProduct";
             this.Text = "FrmProduct";
+            this.Load += new System.EventHandler(this.FrmProduct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

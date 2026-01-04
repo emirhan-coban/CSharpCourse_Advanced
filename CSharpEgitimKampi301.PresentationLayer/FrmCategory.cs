@@ -70,5 +70,10 @@ namespace CSharpEgitimKampi301.PresentationLayer
             _categoryService.TUpdate(updatedValue);
             MessageBox.Show("Kategori güncellendi.");
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
